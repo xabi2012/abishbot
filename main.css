@@ -1,0 +1,113 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.header{
+    padding: 45px 0;
+    border-bottom: 2px solid white;
+    background: white;
+}
+.container{
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__btn{
+    color: black;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    gap: 14px;
+    line-height: 44px;
+    background-color: transparent;
+    display: block;
+    align-items: center;
+}
+.header__btn::before{
+    background-image: url("./images/Vector.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+.hero{
+    padding-top: 43px;
+    padding-bottom: 55px;
+}
+.hero__wrapper{
+    width: 650px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+.hero__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__text{
+    color: rgb(240, 64, 15);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+align-items: center;
+display: flex;
+gap: 10px;
+}
+.hero__text::after{
+    background-image: url("./images/Vector\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 23px;
+    content: "";
+    display: block;
+}
+.hero__tittle{
+    color: rgb(14, 13, 93);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: center;
+margin-top: 133px;
+}
+.buttons{
+    border-radius: 20px;
+    background: white;
+    padding: 8px 11px;
+}
+.oquvc{
+    width: 255px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    border-radius: 15px;
+    border: none;
+}
+.ota{
+width: 255px;
+color: rgb(117, 117, 117);
+font-family: "Inter";
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+padding: 9px 0;
+background-color: transparent;
+border: none;
+
+}
